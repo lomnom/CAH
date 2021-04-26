@@ -65,7 +65,7 @@ for i in range(len(whiteCards)):
 	locations=["Ѹ","Ψ","Ѻ","Ө","ӿ","ʨ","~","Ϟ","ʬ"]
 
 	for n in range(len(text)):
-		svg=svg.replace(locations[n],text[n])
+		svg=svg.replace(locations[n],text[n].replace("&","&amp;").replace(">","&gt;").replace("<","&lt;"))
 
 	for location in locations:
 		svg=svg.replace(location,"")
@@ -106,7 +106,7 @@ for i in range(len(blackCards)):
 
 	for n in range(len(text)):
 		if not text[n]=="":
-			svg=svg.replace(locations[n],text[n])
+			svg=svg.replace(locations[n],text[n].replace("&","&amp;").replace(">","&gt;").replace("<","&lt;"))
 
 	for location in locations:
 		svg=svg.replace(location,"")
