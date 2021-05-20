@@ -2,7 +2,7 @@
 python3 CAH.py  
 The rest will explain itself (its only 1 input)
 
-Cards will be saved in <cwd>/cards  
+Cards will be saved in &lt;cwd&gt;/cards  
 **You need to run it in the same dir**
   
 # Dependencies:
