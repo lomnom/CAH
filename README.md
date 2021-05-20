@@ -1,5 +1,11 @@
 # USAGE
-Requires cairosvg and pypdf2<br />
-Run with `python3 CAH.py` in the same directory<br />
-After you choose the deck, let it run untill it teminates<br />
-The cards will be in `cards/\<deck\>/CARDSWITHRULES.pdf`
+python3 CAH.py  
+The rest will explain itself (its only 1 input)
+
+Cards will be saved in <cwd>/cards
+**You need to run it in the same dir**
+  
+# Dependencies:
+[pypdf2](https://pypi.org/project/PyPDF2/),  
+[FUNC](https://github/lomnom/FUNC),  
+[cairosvg](https://pypi.org/project/CairoSVG/)
